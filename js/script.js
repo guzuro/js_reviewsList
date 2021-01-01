@@ -3,7 +3,7 @@ const reviews = [{
       number: "review #1",
       img: '../img/face1.jpg',
       name: 'John Doe',
-      text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur a quos ex quae
+      text: `adipisicing elit. Impedit consectetur a quos ex quae
       asperiores blanditiis ea. Repellat, aperiam ex!`
    },
    {
@@ -12,7 +12,7 @@ const reviews = [{
       img: '../img/face2.jpg',
       name: 'Igor',
       text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur a quos ex quae
-      asperiores blanditiis ea. Repellat, aperiam ex!`
+      asperiores. Repellat, aperiam ex!`
    },
    {
       id: 3,
@@ -20,7 +20,7 @@ const reviews = [{
       img: '../img/face3.jpg',
       name: 'Maxim',
       text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur a quos ex quae
-      asperiores blanditiis ea. Repellat, aperiam ex!`
+      asperiores blanditiis ea.`
    },
    {
       id: 4,
@@ -35,7 +35,7 @@ const reviews = [{
       number: "review #5",
       img: '../img/face5.jpg',
       name: 'Dakota',
-      text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur a quos ex quae
+      text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. quae
       asperiores blanditiis ea. Repellat, aperiam ex!`
    },
 ]
