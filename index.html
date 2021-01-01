@@ -14,20 +14,18 @@
       <div class="container">
          <div class="content__inner">
             <div class="content__card">
-               <p class="content__number">review #1</p>
+               <p class="content__number" id='reviewId'></p>
                <div class="content__img">
-                  <img src="img/face1.jpg" alt="">
+                  <img src="" alt="" id='authorImage'>
                </div>
-               <p class="content__author">John Doe</p>
-               <p class="content__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consectetur a quos ex quae
-                  asperiores blanditiis ea. Repellat, aperiam ex!
+               <p class="content__author" id="authorName"></p>
+               <p class="content__text" id="authorText">
                </p>
                <div class="content__navigation">
-                  <button class="content__button btn"> &larr;</button>
-                  <button class="content__button btn"> &rarr;</button>
+                  <button class="content__button btn" data-direction='left'> &larr;</button>
+                  <button class="content__button btn" data-direction='right'> &rarr;</button>
                </div>
-               <button class="content__random btn">Random review</button>
+               <button class="content__random btn" data-direction='random'>Random review</button>
             </div>
          </div>
       </div>
